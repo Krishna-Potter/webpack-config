@@ -6,3 +6,4 @@
 *error.log*
 *debug.log*
 /package-lock.json
+/dist
