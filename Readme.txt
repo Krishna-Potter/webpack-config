@@ -4,9 +4,9 @@ Install Dependencies:
 ->npm install
 
 Run Command:
-->npm start
+->npm run dev
 
 Build Command:
-->npm run build
+->npm run prod
 
 Thank You @Krishna-Potter
