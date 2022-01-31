@@ -1,8 +1,12 @@
 // Demo JS File
+import React from "react";
+import ReactDom from "react-dom";
+import App from "./app";
 import "./style.scss";
 
-const demo = () => {
-  console.log("Hello from webpack-dev");
-};
-
-demo();
+ReactDom.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
