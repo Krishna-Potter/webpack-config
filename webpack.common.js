@@ -25,6 +25,7 @@ module.exports = {
   plugins: [
     //   HTML Template
     new HtmlWebpackPlugin({
+      template: "./src/index.html",
       title: "Webpack Basic Config",
     }),
   ],
